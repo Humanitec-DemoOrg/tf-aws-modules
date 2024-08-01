@@ -15,8 +15,12 @@ variable "k8s_service_account" {
   default     = "default"
 }
 
-
 variable "aws_iam_role_arn" {
   type        = string
   description = "The cluster IAM role ARN."
+}
+
+variable "region" {
+  type        = string
+  description = "The region."
 }
