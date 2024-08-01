@@ -24,3 +24,15 @@ variable "region" {
   type        = string
   description = "The region."
 }
+
+variable "app_id" {
+  type = string
+}
+
+variable "env_id" {
+  type = string
+}
+
+variable "res_id" {
+  type = string
+}
